@@ -28,3 +28,6 @@ This repository contains 10 C programming problems solved on the LeetCode platfo
 
 ## Author
 BCA 1st Semester Student
+
+## Project Status
+All 10 LeetCode problems solved and accepted.
