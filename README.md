@@ -27,7 +27,8 @@ This repository contains 10 C programming problems solved on the LeetCode platfo
 - GitHub
 
 ## Author
-BCA 1st Semester Student
+Amit Kumar
+BCA 1st Semester 
 
 ## Project Status
 All 10 LeetCode problems solved and accepted.
