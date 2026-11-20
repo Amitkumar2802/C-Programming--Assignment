@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int search(int* nums, int numsSize, int target)
+{
+    int left = 0;
+    int right = numsSize - 1;
+
+    while (left <= right)
+    {
+        int middle = left + (right - left) / 2;
+
+        if (nums[middle] == target)
+            return middle;
+
+        if (nums[middle] < target)
+            left = middle + 1;
+        else
+            right = middle - 1;
+    }
+
+    return -1;
+}
+
+int main()
+{
+    int nums[] = {1, 3, 5, 7, 9, 11, 13};
+    int target = 9;
+
+    int size = sizeof(nums) / sizeof(nums[0]);
+
+    int result = search(nums, size, target);
+
+    printf("Target Index: %d\n", result);
+
+    return 0;
+}
